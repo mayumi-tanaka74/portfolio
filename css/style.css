@@ -3,24 +3,23 @@
 /* ヘッダー */
 
 .loading {
+  position: relative;
   width: 100vw;
   height: 100vh;
   transition: all 1s;
-  z-index: 9999;
+  z-index: 99;
   opacity: 1;
   visibility: visible;
 }
 
-.loading.is-active {
-  opacity: 0;
-  visibility: hidden;
+.loading.is-hidden {
+  display: none;
 }
 
 .loading-animation {
   width: 100vw;
   height: 100vh;
   transition: all 1s;
-  z-index: 9999;
   opacity: 0;
   visibility: hidden;
 }

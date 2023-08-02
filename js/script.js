@@ -104,18 +104,13 @@ $(function () {
   });
 });
 
-$(window).on("load", function () {
-  $("#loading").delay(1500).fadeOut("slow"); //ローディング画面を1.5秒（1500ms）待機してからフェードアウト
-  $(".loading-animation").delay(1200).fadeOut("slow"); //ロゴを1.2秒（1200ms）待機してからフェードアウト
-});
-
 $(function () {
   var webStorage = function () {
     if (sessionStorage.getItem("access")) {
       /*
         2回目以降アクセス時の処理
       */
-      $(".loading").addClass("is-active");
+      $(".loading").addClass("is-hidden");
     } else {
       /*
         初回アクセス時の処理
@@ -124,8 +119,8 @@ $(function () {
       $(".loading-animation").addClass("is-active"); // loadingアニメーションを表示
       setTimeout(function () {
         // ローディングを数秒後に非表示にする
-        $(".loading").addClass("is-active");
         $(".loading-animation").removeClass("is-active");
+        $(".loading").addClass("is-hidden");
       }, 3000); // ローディングを表示する時間
     }
   };
