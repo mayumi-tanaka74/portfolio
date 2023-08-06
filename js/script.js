@@ -120,7 +120,7 @@ $(function () {
       setTimeout(function () {
         // ローディングを数秒後に非表示にする
         $(".loading-animation").removeClass("is-active");
-        $(".loading").addClass("is-hidden");
+        $(".loading").fadeOut();
       }, 3000); // ローディングを表示する時間
     }
   };

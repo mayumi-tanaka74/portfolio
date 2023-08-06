@@ -130,6 +130,14 @@ body {
     "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 }
 
+.back {
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  bottom: 10%;
+  margin: 100px 0;
+}
+
 @media screen and (max-width: 767px) {
   .btn {
     width: 60px;

@@ -365,6 +365,7 @@ textarea {
 .btn_send {
   display: flex;
   justify-content: center;
+  margin-top: 100px;
 }
 
 button {
