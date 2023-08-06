@@ -3,8 +3,10 @@
 /* ヘッダー */
 
 .loading {
-  position: relative;
-  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100vh;
   transition: all 1s;
   z-index: 99;
@@ -17,7 +19,7 @@
 }
 
 .loading-animation {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   transition: all 1s;
   opacity: 0;
@@ -449,6 +451,16 @@ button {
   position: absolute;
   left: 50%;
   bottom: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.btn_back {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
   transform: translate(-50%, -50%);
 }
 
