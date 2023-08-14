@@ -126,23 +126,3 @@ $(function () {
   };
   webStorage();
 });
-
-$(".works_slider").slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplaySpeed: 3000,
-  autoplay: true,
-  dots: true,
-  arrows: true,
-  infinite: true,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-      },
-    },
-  ],
-});
