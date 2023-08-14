@@ -196,6 +196,7 @@
 }
 
 .works_slider img {
+  max-width: 306px;
   padding: 7%;
   margin: 0 auto;
 }
