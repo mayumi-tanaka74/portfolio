@@ -203,6 +203,7 @@
 
 .works_slider {
   display: flex;
+  justify-content: space-around;
 }
 
 .btn_more {
