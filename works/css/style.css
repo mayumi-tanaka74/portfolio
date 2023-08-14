@@ -86,7 +86,7 @@ body {
 
 .work_list_title {
   border-bottom: 1px solid #4c5b7f;
-  padding-bottom: 5px;
+  padding: 10px 0;
   font-size: 17px;
 }
 
@@ -131,6 +131,7 @@ th,
 td {
   padding: 10px 20px;
   margin-bottom: 25px;
+  line-height: 2;
 }
 
 th {

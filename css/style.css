@@ -197,10 +197,12 @@
 
 .works_slider img {
   padding: 7%;
+  margin: 0 auto;
 }
 
 .works_slider {
   display: flex;
+  justify-content: center;
 }
 
 .btn_more {
@@ -477,7 +479,7 @@ button {
 .about_page_wrap {
   display: flex;
   justify-content: center;
-  padding-bottom: 145px;
+  padding-bottom: 200px;
 }
 
 .about_page_photo {
@@ -659,18 +661,7 @@ button {
 
   .slick-next::after,
   .slick-prev::after {
-    width: 15px;
-    height: 15px;
-    border-top: 2px solid #4c5b7f;
-    border-right: 2px solid #4c5b7f;
-  }
-
-  .slick-next {
-    right: 3%;
-  }
-
-  .slick-prev {
-    left: 3%;
+    display: none;
   }
 
   .top_name {
@@ -782,6 +773,10 @@ button {
 
   .about_page {
     padding: 140px 0 100px 0;
+  }
+
+  .about_page_wrap {
+    margin-bottom: 100px;
   }
 
   .about_me {
