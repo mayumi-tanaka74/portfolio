@@ -195,11 +195,6 @@
   margin: 0 auto;
 }
 
-.works_slider {
-  display: flex;
-  justify-content: space-around;
-}
-
 .btn_more {
   display: flex;
   justify-content: flex-end;
