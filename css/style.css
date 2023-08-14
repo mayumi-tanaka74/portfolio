@@ -190,16 +190,18 @@
 
 /* Works */
 
-.works_slider img {
-  max-width: 300px;
-  padding: 5%;
+.works {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
+.works_slider img {
+  padding: 5%;
+}
+
 .works_slider {
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
+  justify-content: space-around;
 }
 
 .btn_more {
